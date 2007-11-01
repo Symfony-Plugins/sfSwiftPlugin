@@ -1,5 +1,5 @@
 autoload:
   swift_mailer_classes:
     name: SWIFT Mailer classes
-    path: ../../externals/php/swift/current/lib
+    path: plugins/sfSwiftPlugin/trunk/lib/swift
     recursive:      on
