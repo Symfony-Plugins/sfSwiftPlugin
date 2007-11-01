@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.6.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>sfSwiftPlugin</name>
+ <channel>pear.symfony-project.com</channel>
+ <summary>Email plugin</summary>
+ <description>Email plugin (provides abstraction and autoloading of classes) using Swift Mailer Library</description>
+ <lead>
+  <name>Gordon Franke</name>
+  <user>gordon</user>
+  <email />
+  <active>yes</active>
+ </lead>
+ <developer>
+  <name>Jason Ibele</name>
+  <user>Draven</user>
+  <email />
+  <active>no</active>
+ </developer>
+ <date>2007-07-31</date>
+ <time>12:22:24</time>
+ <version>
+  <release>1.4.0</release>
+  <api>3.2.6</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.symfony-project.com/license">MIT license</license>
+ <notes>implement sfSwiftMailerBridge thanks to Joaquin.Bravo (now use `Swift` instead of `sfSwiftPlugin`)</notes>
+ <contents>
+  <dir baseinstalldir="/sfSwiftPlugin" name="/">
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="ac57994f1edcc1850a5f69af89bec11d" name="lib/sfSwiftMailerBridge.php" role="php" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="992424abff8eaaa4a6b967394b1c08be" name="modules/sfSwiftMailer/actions/actions.class.php" role="php" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="98fa5220cddfab10f548e145b3c53b3f" name="modules/sfSwiftMailer/config/module.yml" role="data" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="bafcac5821c3957465c229988c562d27" name="modules/sfSwiftMailer/config/view.yml" role="data" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="4561a50a6ce8f1606feeb99f8a12f0c6" name="modules/sfSwiftMailer/templates/thankYouHtmlSuccess.php" role="php" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="57fbebf846ea99ad4879aa8d2b66b501" name="modules/sfSwiftMailer/templates/thankYouSuccess.php" role="php" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="aecd2b99b3ad5d84120ce9d8928605ec" name="modules/sfSwiftMailer/templates/thankYouTextSuccess.php" role="php" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="19fd58de414170ee8ee11f09b185358a" name="LICENSE" role="data" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="07a7400173482bab4d67dac24631cadd" name="README" role="data" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.4</min>
+   </pearinstaller>
+   <package>
+    <name>symfony</name>
+    <channel>pear.symfony-project.com</channel>
+    <min>1.0.0</min>
+    <max>1.0.99999</max>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.4.0</release>
+    <api>3.2.6</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-07-31</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>implement sfSwiftMailerBridge thanks to Joaquin.Bravo (now use `Swift` instead of `sfSwiftPlugin`)</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.3.1</release>
+    <api>3.2.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-05-14</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update swift libary to 3.2.2 see `CHANGES` file in the `lib/Swift` directory of the plugin</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.3.0</release>
+    <api>3.2.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-05-08</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update swift libary to 3.2.0 see `CHANGES` file in the `lib/Swift` directory of the plugin</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.4</release>
+    <api>3.1.5</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-04-26</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update the libary to 3.1.5 see `CHANGES` file in the `lib/Swift` directory of the plugin</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.3</release>
+    <api>3.1.4</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-04-24</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update the libary to 3.1.4 see `CHANGES` file in the `lib/` directory of the plugin</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.2</release>
+    <api>3.1.3</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-04-18</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update the libary to 3.1.3 see `CHANGES` file in the `lib/` directory of the plugin and correct the example</notes>
+  </release>
+  <release>
+   <version>
+    <release>1.2.1</release>
+    <api>3.1.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-04-02</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>update the libary to 3.1.2 see `CHANGES` file in the `lib/` directory of the plugin</notes>
+  </release>
+ </changelog>
+</package>
