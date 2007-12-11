@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package packagerversion="1.6.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
     http://pear.php.net/dtd/tasks-1.0.xsd
     http://pear.php.net/dtd/package-2.0
     http://pear.php.net/dtd/package-2.0.xsd">
@@ -19,10 +19,10 @@
   <email />
   <active>no</active>
  </developer>
- <date>2007-11-01</date>
- <time>13:33:13</time>
+ <date>2007-12-11</date>
+ <time>11:23:48</time>
  <version>
-  <release>1.5.0</release>
+  <release>1.5.1</release>
   <api>3.3.2</api>
  </version>
  <stability>
@@ -30,10 +30,10 @@
   <api>stable</api>
  </stability>
  <license uri="http://www.symfony-project.com/license">MIT license</license>
- <notes>switch to autoload function</notes>
+ <notes>only use autoload function if needed</notes>
  <contents>
   <dir baseinstalldir="/sfSwiftPlugin" name="/">
-   <file baseinstalldir="/sfSwiftPlugin" md5sum="b9b7246653d5b1ceb134939b21b4bb62" name="config/autoload.yml" role="data" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="2a309e77c0872c81e3d1123b28ba59e4" name="config/autoload.yml.sample" role="data" />
    <file baseinstalldir="/sfSwiftPlugin" md5sum="a17e2383de6c0f6fa85cb979bfc1424f" name="lib/swift/CHANGES" role="data" />
    <file baseinstalldir="/sfSwiftPlugin" md5sum="8e92466468b9c4e598138cd8a96335c2" name="lib/swift/CRITICAL.txt" role="data" />
    <file baseinstalldir="/sfSwiftPlugin" md5sum="d6b5db7d9085c0acfdf85572409463c8" name="lib/swift/INSTALL" role="data" />
@@ -191,7 +191,7 @@
    <file baseinstalldir="/sfSwiftPlugin" md5sum="57fbebf846ea99ad4879aa8d2b66b501" name="modules/sfSwiftMailer/templates/thankYouSuccess.php" role="php" />
    <file baseinstalldir="/sfSwiftPlugin" md5sum="aecd2b99b3ad5d84120ce9d8928605ec" name="modules/sfSwiftMailer/templates/thankYouTextSuccess.php" role="php" />
    <file baseinstalldir="/sfSwiftPlugin" md5sum="19fd58de414170ee8ee11f09b185358a" name="LICENSE" role="data" />
-   <file baseinstalldir="/sfSwiftPlugin" md5sum="ba61bdb45f60d00d6df85ff3c21ddff1" name="README" role="data" />
+   <file baseinstalldir="/sfSwiftPlugin" md5sum="11798fc7e4cabc33541886dec3216c3d" name="README" role="data" />
   </dir>
  </contents>
  <dependencies>
@@ -212,6 +212,19 @@
  </dependencies>
  <phprelease />
  <changelog>
+  <release>
+   <version>
+    <release>1.5.1</release>
+    <api>3.3.2</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2007-12-11</date>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <notes>only use autoload function if needed</notes>
+  </release>
   <release>
    <version>
     <release>1.5.0</release>
