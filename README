@@ -36,6 +36,10 @@ Enjoy!
 
 == Changelog ==
 
+=== 1.5.1 ===
+
+  * only use autoload function if needed
+
 === 1.5.0 ===
 
   * switch to autoload function
